@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 34, 101);
+}
+.button-container{
+    align-items:center ;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.button{
+    padding: 10px 20px;
+    background-color: rgb(243, 88, 179);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #f793c1;
+}
